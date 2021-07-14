@@ -20,7 +20,7 @@ header {
     z-index: 2;
 }
 
-h1, p {
+h1, p, a {
     color: white;
     font-family: Georgia serif 16px;
 }
