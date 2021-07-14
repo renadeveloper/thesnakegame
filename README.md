@@ -4,8 +4,6 @@
 
 Aplicação desenvolvida por [Renata Lima Ribeiro de Sena](https://github.com/renadeveloper) baseado no desafio ensinado por [Gabriela Pinheiro](https://github.com/SpruceGabriela/snake-the-game) no [Bootcamp da Digital Innovation One](https://web.digitalinnovation.one/).
 
-Matrícula: 219115203
-
 
 ## 🖱️ Acesso
 
