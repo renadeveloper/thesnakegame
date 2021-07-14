@@ -24,4 +24,4 @@ Foram utilizadas as seguintes tecnologias para o desenvolvimento:
 ## 🦮 Instruções Gerais para utilização da Interface Web
 
 
-- Com as setas de direção (➡️, ⬅️, ⬆️, ⬇️) movimente a cobrinha verde para o alimento vermelho. Caso a cobrinha toque no próprio corpo o jogo acaba!
+- Com as setas de direção (➡️, ⬅️, ⬆️, ⬇️) movimente a cobra para o alimento. Caso a cobra toque no próprio corpo o jogo acaba!
