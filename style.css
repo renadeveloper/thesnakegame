@@ -16,7 +16,7 @@ header {
     right: 0;
     left: 0;
     border-bottom: 1px solid #ccc;
-    background: rgb(82, 116, 32);
+    background: rgb(214, 159, 178);
     z-index: 2;
 }
 
@@ -41,7 +41,7 @@ footer {
     left: 0;
     height: 70px;
     width: 100%;
-    background: yellowgreen;
+    background: rgb(214, 159, 178);
     margin-top: 20px;
     text-align: center;
 }
