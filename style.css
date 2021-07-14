@@ -18,12 +18,20 @@ header {
     border-bottom: 1px solid #ccc;
     background: rgb(82, 116, 32);
     z-index: 2;
-    text-align: center;
 }
 
 h1, p {
     color: white;
     font-family: Georgia serif 16px;
+}
+
+#titulo {
+    margin-right: 1000px;
+    margin-bottom: -65px;
+}
+
+#pontos{
+    margin-left: 1000px;
 }
 
 footer {
