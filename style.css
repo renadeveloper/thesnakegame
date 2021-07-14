@@ -1,11 +1,39 @@
-.container-fluid{
-    align-items: center;
+body{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
     flex-direction: column;
-    background-color:whitesmoke;
-    text-align: center;
-    color:#16a085;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-size: 4pt;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    color: rgb(52, 165, 52);
 }
 
+header {
+    min-height: 60px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    background: rgb(82, 116, 32);
+    z-index: 2;
+    text-align: center;
+}
+
+h1, p {
+    color: white;
+    font-family: Georgia serif 16px;
+}
+
+footer {
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background: yellowgreen;
+    margin-top: 20px;
+    text-align: center;
+}

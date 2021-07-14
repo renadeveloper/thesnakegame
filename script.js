@@ -3,6 +3,7 @@ let context = canvas.getContext("2d");
 let box = 32;
 let direction = "right";
 let game = setInterval(startGame, 100); // to change the snake's velocity, change the number 100 to one number less than
+let pontos = 0; 
 
 let food = { // drawing food in random mood
     x: Math.floor(Math.random() * 15 + 1) * box,
@@ -49,6 +50,7 @@ function startGame() {
     //creating variables to save and change the snake position
     let snakeX = snake[0].x;
     let snakeY = snake[0].y;
+    print("Pontos: " + pontos)
 
     // snake moves acoording to keyboard
     if (direction == "right") snakeX +=box;
@@ -62,8 +64,9 @@ function startGame() {
         // a todo momneto uma cabeça nova é criada mas so nao da pop quando come a fruta
     } else { 
         // draw more food in a different and random place inside bg
-        food.x = Math.floor(Math.random() * 15 + 1) * box,
-        food.y = Math.floor(Math.random() * 15 + 1) * box
+        food.x = Math.floor(Math.random() * 15 + 1) * box;
+        food.y = Math.floor(Math.random() * 15 + 1) * box;
+        pontos+=10;
     }
 
     //if the condition game over isnot true, the game continues creating a new head every time the anterior's if is done
